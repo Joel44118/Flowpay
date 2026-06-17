@@ -1,0 +1,12 @@
+{
+  "database": {
+    "host": "localhost",
+    "user": "root",
+    "password": "password",
+    "database": "flowpay"
+  },
+  "api": {
+    "key": "api_key",
+    "secret": "api_secret"
+  }
+}
