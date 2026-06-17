@@ -1,2 +1,2 @@
-# FlowPay
-A payment processing system
+# Flowpay Starter Project
+A basic starter project for Flowpay.
