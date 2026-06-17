@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
-const paymentRouter = require('./routes/payment');
+const userRoute = require('./routes/user');
 
-app.use('/payment', paymentRouter);
+app.use('/users', userRoute);
 
 module.exports = app;
