@@ -1,7 +1,7 @@
 class Logger {
-  static log(message) {
+  constructor(){}
+  log(message) {
     console.log(message);
   }
 }
-
 module.exports = Logger;
