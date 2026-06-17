@@ -1,7 +1,8 @@
 class Payment {
-  constructor(amount, recipient) {
+  constructor(amount, currency) {
     this.amount = amount;
-    this.recipient = recipient;
+    this.currency = currency;
   }
 }
+
 module.exports = Payment;
