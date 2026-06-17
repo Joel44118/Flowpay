@@ -1,6 +1,5 @@
 class Logger {
-  constructor(){}
-  log(message) {
+  static log(message) {
     console.log(message);
   }
 }
