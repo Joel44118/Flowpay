@@ -1,12 +1,8 @@
 const Payment = require('../models/Payment');
-
 class PaymentController {
-  static processPayment(req, res) {
-    const { amount, currency } = req.body;
-    const payment = new Payment(amount, currency);
-    // Process payment
-    res.send(`Payment of ${payment.amount} ${payment.currency} processed`);
+  async createPayment(req, res) {
+    const payment = new Payment(req.body.id, req.body.amount, req.body.recipient);
+    res.send(payment);
   }
 }
-
 module.exports = PaymentController;
