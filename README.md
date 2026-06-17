@@ -1,10 +1,7 @@
-# FlowPay API
-
+# FlowPay
+Payment processing system
 ## Getting Started
-
-1. Install dependencies: `npm install`
-2. Start server: `npm start`
-
-## API Endpoints
-
-* `POST /api/payment` - Create a new payment
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm start`
+4. Open `http://localhost:3000` in your browser
