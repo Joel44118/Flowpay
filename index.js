@@ -2,14 +2,10 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
-app.use(express.json());
-
-app.post('/payment', (req, res) => {
-  const { amount, currency } = req.body;
-  // Process payment
-  res.send(`Payment of ${amount} ${currency} processed`);
+app.get('/', (req, res) => {
+  res.send('Flowpay Starter Project');
 });
 
 app.listen(port, () => {
-  console.log(`FlowPay listening on port ${port}`);
+  console.log(`Flowpay app listening on port ${port}`);
 });
