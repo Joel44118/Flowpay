@@ -28,48 +28,70 @@ nav a {
   text-decoration: none;
 }
 
-#hero {
-  background-image: linear-gradient(to bottom, #fcc5c9, #ee786e);
-  padding: 5rem;
+#login-form {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  width: 50%;
+  margin: 2rem auto;
   text-align: center;
+}
+
+#login-form-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  background-color: #333;
   color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+#hero {
+  padding: 2rem;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  width: 50%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+#hero h1 {
+  font-size: 2rem;
+}
+
+#hero p {
+  font-size: 1.5rem;
 }
 
 #hero button {
   background-color: #333;
   color: #fff;
   border: none;
-  padding: 1rem 2rem;
+  padding: 10px 20px;
   font-size: 1rem;
   cursor: pointer;
 }
 
-#features {
-  padding: 2rem;
-}
-
-#features ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#features li {
-  margin-bottom: 10px;
-}
-
-#news {
-  padding: 2rem;
-}
-
-#news-container {
-  padding: 1rem;
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
-}
-
-#about {
-  padding: 2rem;
-  background-color: #f7f7f7;
-  border: 1px solid #ddd;
+#hero button:hover {
+  background-color: #444;
 }
