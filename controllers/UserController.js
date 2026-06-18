@@ -1,7 +1,10 @@
+const User = require('../models/User');
+
 class UserController {
-  constructor(){}
-  async getUsers(req, res) {
-    res.send('Get users');
+  async getUsers() {
+    // implement db fetch
+    return [];
   }
 }
+
 module.exports = UserController;
