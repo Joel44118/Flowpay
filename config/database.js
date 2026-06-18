@@ -1,7 +1,9 @@
 const dbConfig = {
-  host: 'localhost',
   user: 'root',
+  host: 'localhost',
+  database: 'flowpay',
   password: 'password',
-  database: 'flowpay'
+  port: 5432,
 };
+
 module.exports = dbConfig;
