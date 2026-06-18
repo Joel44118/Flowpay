@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
-const paymentsRouter = require('./routes/payments');
-app.use('/payments', paymentsRouter);
+const userRouter = require('./routes/user');
+
+app.use('/api/users', userRouter);
+
 module.exports = app;
