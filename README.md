@@ -1,3 +1,2 @@
-# FlowPay App
-
-FlowPay App is a payment processing system.
+# FlowPay
+A payment processing system
