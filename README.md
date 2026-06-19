@@ -1,2 +1,2 @@
 # FlowPay
-A simple payment processing system
+A payment processing system
