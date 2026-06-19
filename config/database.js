@@ -5,5 +5,4 @@ const dbConfig = {
   password: 'password',
   port: 5432,
 };
-
 module.exports = dbConfig;
