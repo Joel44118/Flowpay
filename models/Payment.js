@@ -1,8 +1,9 @@
 class Payment {
-  constructor(id, amount, recipient) {
-    this.id = id;
+  constructor(amount, cardNumber, expirationDate, cvv) {
     this.amount = amount;
-    this.recipient = recipient;
+    this.cardNumber = cardNumber;
+    this.expirationDate = expirationDate;
+    this.cvv = cvv;
   }
 }
 module.exports = Payment;
