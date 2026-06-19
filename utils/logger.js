@@ -1,5 +1,5 @@
 class Logger {
-  static log(message) {
+  log(message) {
     console.log(message);
   }
 }
