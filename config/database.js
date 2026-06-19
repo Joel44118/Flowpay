@@ -1,6 +1,5 @@
-const dbConfig = {
-  username: 'root',
-  password: 'password',
-  database: 'flowpay'
-};
-module.exports = dbConfig;
+const mongoose = require('mongoose');
+
+mongoose.connect('mongodb://localhost/flowpay', { useNewUrlParser: true, useUnifiedTopology: true });
+
+module.exports = mongoose;
